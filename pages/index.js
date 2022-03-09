@@ -8,10 +8,20 @@ import LiquidPeople from "../components/Employee/LiquidPeople";
 import Footer from "../components/footer/Footer";
 import PhotoGrid from "../components/PhotoGrid";
 import NavBar from "../components/NavBar";
-import React from "react";
+import React, { Component } from "react";
 
-export default function Home() {
-  return (
+export default class Home extends Component {
+  state = {
+    lastScroll: new Date(),
+    isActive: false,
+  };
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ isActive: true });
+    }, 1000);
+  }
+  containerData = () => {
+    return (
       <>
         <NavBar />
         <div className="FirstSwiperContainer">
@@ -29,6 +39,15 @@ export default function Home() {
         <Footer />
       </>
     );
-  
- 
+  };
+  render() {
+    if (
+      this.state.lastScroll.getTime() < new Date().getTime() - 300 &&
+      this.state.isActive === true
+    ) {
+      return this.containerData();
+    } else {
+      return <></>;
+    }
+  }
 }
