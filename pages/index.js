@@ -8,12 +8,10 @@ import LiquidPeople from "../components/Employee/LiquidPeople";
 import Footer from "../components/footer/Footer";
 import PhotoGrid from "../components/PhotoGrid";
 import NavBar from "../components/NavBar";
-import React, { Component } from "react";
+import React from "react";
 
-export default function Home () {
-
-
-    return (
+export default function Home() {
+  return (
       <>
         <NavBar />
         <div className="FirstSwiperContainer">

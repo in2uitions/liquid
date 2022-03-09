@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "next";
+import { Link } from "next/link";
 
 export default function PhotoGrid() {
   useEffect(() => {
@@ -83,14 +83,7 @@ export default function PhotoGrid() {
             data-aos-easing="linear"
             data-aos-duration="1500"
           >
-            <Link href="/" className={style.links}>
-              Home
-            </Link>
-            <Link className={style.DotLight}>/</Link>
-            <Link href="/" className={style.links}>
-              Our Work
-            </Link>
-            <Link className={style.DotDark}>/</Link>
+
           </div>
         </div>
       </div>
