@@ -10,17 +10,9 @@ import PhotoGrid from "../components/PhotoGrid";
 import NavBar from "../components/NavBar";
 import React, { Component } from "react";
 
-export default class Home extends Component {
-  state = {
-    lastScroll: new Date(),
-    isActive: false,
-  };
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ isActive: true });
-    }, 6000);
-  }
-  containerData = () => {
+export default function Home () {
+
+
     return (
       <>
         <NavBar />
@@ -39,15 +31,6 @@ export default class Home extends Component {
         <Footer />
       </>
     );
-  };
-  render() {
-    if (
-      this.state.lastScroll.getTime() < new Date().getTime() - 300 &&
-      this.state.isActive === true
-    ) {
-      return this.containerData();
-    } else {
-      return <></>;
-    }
-  }
+  
+ 
 }
