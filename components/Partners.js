@@ -12,6 +12,7 @@ export default function Partners() {
       delay: 50,
       disable:"mobile"
     });
+   
     window.addEventListener(
       "touchmove",
       () => {
@@ -19,6 +20,7 @@ export default function Partners() {
       },
       false
     );
+
   });
   return (
     <>
