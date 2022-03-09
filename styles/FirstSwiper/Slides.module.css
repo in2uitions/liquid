@@ -1,0 +1,68 @@
+.MainContainer {
+  width: 100%;
+  height: 350px;
+}
+
+.FirstSlideContainer {
+  text-align: left;
+}
+
+.first,
+.is,
+.last {
+  line-height: 2.5rem;
+}
+
+.is {
+  padding: 0 1rem 0 1rem;
+}
+
+.Title span {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  text-align: justify;
+}
+
+.Title {
+  display: flex;
+}
+
+.blue {
+  color: #00d2d3;
+}
+
+.Info {
+  color: white;
+  padding-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.AddInfo {
+  color: #00d2d3;
+}
+
+.InfoContainer {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 540px) {
+  .Title span {
+    font-size: 2rem;
+  }
+
+  .InfoContainer {
+    font-size: 1rem;
+  }
+
+  .Info {
+    line-height: 1.1rem;
+  }
+
+  .first,
+  .is,
+  .last {
+    line-height: 0.7rem;
+  }
+}

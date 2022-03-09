@@ -1,0 +1,138 @@
+.ContainerPage {
+  background: black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0 3rem 0rem;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  padding-left: 3rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.Navlinks {
+  padding: 1rem 0 3rem 1rem;
+}
+
+.links {
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.links:hover {
+  color: #00aeff;
+}
+
+.DotLight {
+  font-size: 1rem;
+  color: #00aeff;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.DotDark {
+  font-size: 1rem;
+  color: #3369e7;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+.TitleGradient {
+  font-size: 45px;
+  background: linear-gradient(to right, rgb(20, 90, 155), #76c7af, #679ac0);
+  -webkit-background-clip: text;
+  padding-left: 1rem;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.Title {
+  padding: 3rem 0 0 1rem;
+}
+
+.titleheader {
+  color: white;
+  font-weight: 400;
+  font-size: 72px;
+
+
+}
+
+
+.CasesButton {
+  background-color: transparent;
+  outline: none;
+  color: white;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(14, 173, 173)), color-stop(0.67, rgb(0, 255, 255)));
+  background-image: -moz-linear-gradient(center bottom, rgb(14, 173, 173) 33%, rgb(0, 255, 255) 67%);
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  margin: 1rem 0 0 7px;
+  border-radius: 40px;
+
+}

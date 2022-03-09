@@ -1,0 +1,38 @@
+.ContainerHeader {
+  background: black;
+  padding: 1rem 0 3rem 1.5rem;
+}
+.titles {
+  padding-left: 1rem;
+  padding-top: 3rem;
+}
+.Container {
+  padding-top: 3rem;
+}
+.titles p {
+  opacity: 0.9;
+  font-weight: 300;
+  font-size: 45px;
+  color: white;
+  line-height: 2rem;
+}
+.titles h2 {
+  font-size: 30px;
+  line-height: 2rem;
+  color: white;
+}
+
+.images {
+  opacity: 0.4;
+  width: 230px;
+  padding: 1rem;
+  transition: 0.4s ease-in-out;
+}
+
+.images:hover {
+  opacity: 1;
+}
+.logo {
+  width: 100%;
+  padding: 1rem;
+}

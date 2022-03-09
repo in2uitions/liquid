@@ -1,0 +1,73 @@
+.container {
+  border-width: 3px;
+  border-style: solid;
+  border-right: 0;
+  padding: 0 0 1rem 1rem;
+  border-image: linear-gradient(to bottom, #0369dd, rgba(0, 0, 0, 0)) 1 50%;
+  background: transparent;
+}
+
+.title {
+  font-size: 50px;
+  color: white;
+  padding: 2rem 0 1rem 0rem;
+}
+
+.TitleContainer {
+  display: flex;
+}
+
+.TitleGradient {
+  font-size: 35px;
+  background: linear-gradient(to right, rgb(33, 91, 146), #4fadec, #25dbd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "AvenirNext-Medium";
+  /* margin: 0.5rem; */
+  margin-right: 0.5rem;
+}
+
+.TitleGradient1 {
+  font-size: 35px;
+  background: linear-gradient(to right, #4fadec, #4fadec, #4fadec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "AvenirNext-Medium";
+  margin-right: 0.5rem;
+}
+
+.TitleGradient2 {
+  font-size: 35px;
+  background: linear-gradient(to right, #4fadec, #47abee, #4fadec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "AvenirNext-Medium";
+  margin-right: 0.5rem;
+}
+
+.text {
+  background-color: transparent;
+  padding: 1rem 0 2rem 1rem;
+}
+
+.text p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.text h2 {
+  color: #4fadec;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.MainContainer {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.bgcolor {
+  background: linear-gradient(0.25turn, #353131, #202746, #2f3b75);
+  width: 100%;
+}

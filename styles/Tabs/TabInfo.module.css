@@ -1,0 +1,19 @@
+.title,
+.info,
+.addinfo {
+    color: white;
+}
+
+.info,
+.addinfo {
+    line-height: 1rem;
+}
+
+.info {
+    opacity: 0.5;
+}
+
+.addinfo {
+    color: #22a6b3;
+    opacity: 0.8;
+}

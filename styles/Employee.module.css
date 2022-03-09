@@ -1,0 +1,164 @@
+.Container {
+  background: black;
+  border-width: 3px;
+  border-right: none;
+  border-style: solid;
+  border-right: 0;
+  padding: 0 2rem 0 2rem;
+  border-image: linear-gradient(to bottom,
+      rgb(10, 134, 124),
+      rgba(61, 15, 226, 0)) 1 50%;
+}
+
+.ContainerImages {
+  background-color: black;
+}
+
+.TitleGradient {
+  font-size: 72px;
+  background: linear-gradient(to right, rgb(20, 90, 155), #76c7af, #8ccdff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "AvenirNext-Medium";
+  background-clip: inset 0 0 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.head {
+  color: white;
+  font-family: "AvenirNext-Medium";
+  font-size: 45px;
+}
+
+.Text {
+  color: gray;
+  font-size: 18px;
+  opacity: 0.7;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.BigAvatar {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.BigCircle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  /* transition: 0.4 ease-in-out; */
+  border: 2px solid rgb(10, 134, 124);
+}
+
+/* .AvatarContainer:hover .BigCircle {
+  width: 160px;
+  height: 160px;
+
+} */
+.CircleAvatarP {
+  color: rgb(209, 203, 203);
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.CircleAvatarH {
+  color: rgb(71, 190, 181);
+  font-size: 15px;
+  padding-top: 0.5rem;
+}
+
+.AvatarContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.SmallAvatar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  column-gap: 15px;
+}
+
+.title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: 900;
+  height: 60px;
+}
+
+.image {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+
+
+}
+
+.image:hover {
+  box-shadow: 0 0 5px 3px rgb(10, 134, 124);
+}
+
+@media screen and (max-width: 1030px) {
+  .image {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 1010px) {
+  .image {
+    width: 100%;
+  }
+}
+
+.SecondContainer {
+  background: black;
+  background-size: cover;
+  width: 100%;
+}
+
+.OnImage {
+  width: 75%;
+}
+
+.Paragraph {
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+  padding: 0 0 2rem 0;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.FirstParag {
+  color: rgb(10, 134, 124);
+  font-weight: 300;
+  width: 500px;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+}
+
+.SecondParag {
+  color: white;
+  font-weight: 300;
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+  width: 500px;
+}
+
+.SecondContainer .col-md-6 {
+  width: 100% !important;
+}

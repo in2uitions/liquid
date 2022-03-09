@@ -1,0 +1,79 @@
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 ;
+  padding: 0;
+  width: 100% !important;
+}
+
+.text {
+  color: white;
+  /* font-size: 25px; */
+  padding: 1rem 0 3rem 1rem;
+  /* line-height: 2.5rem; */
+  font-weight: 500;
+}
+
+.ContainerHeader {
+  background: rgb(104, 93, 93);
+  padding: 0rem 0 3rem 1.5rem;
+}
+
+.SubTitle {
+  font-size: 1rem;
+  color: #0e51ee;
+  margin: 0.5rem;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.DotLight {
+  font-size: 1rem;
+  color: #00aeff;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.DotDark {
+  font-size: 1rem;
+  color: #3369e7;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.Title {
+  flex-direction: row;
+  display: flex;
+  padding-left: 0.5rem;
+}
+
+.TitleGradient {
+  font-size: 72px;
+  background: linear-gradient(to right, rgb(20, 90, 155), #76c7af, #679ac0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "AvenirNext-heavy";
+}
+
+.links {
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.links:hover {
+  color: #00aeff;
+}
+
+.Navlinks {
+  padding: 2rem 0 0 1rem;
+}
+
+.head2 {
+  color: white;
+  font-weight: 400;
+  padding-top: 1rem;
+  font-family: "AvenirNext-Medium";
+  font-size: 45px;
+}

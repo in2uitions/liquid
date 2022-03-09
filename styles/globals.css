@@ -1,0 +1,192 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  background-color: black !important;
+}
+
+body {
+  background: transparent;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  overflow-y: visible;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: flex-start;
+  padding-left: 5rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  right: 0 !important;
+  left: 30px !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+}
+
+.Arrow_arrow__2JbVb {
+  margin-top: -80px;
+}
+
+.react-tabs__tab-list {
+  display: flex !important;
+  justify-content: space-between !important;
+  border-bottom: 2px #3c6382 solid !important;
+  border-top: 2px #3c6382 solid;
+  margin-top: 4.8rem !important;
+}
+
+.react-tabs__tab {
+  color: white !important;
+}
+
+.react-tabs__tab--selected {
+  color: white !important;
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.TabArrow {
+  color: #3c6382 !important;
+  font-size: 2rem !important;
+}
+
+.TabTitle {
+  margin: auto;
+  color: #22a6b3;
+}
+
+.TabContainer {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.TabArrow {
+  cursor: pointer;
+  list-style: none;
+  list-style-type: none;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical > .swiper-pagination-bullets::after {
+  transform: rotate(-90deg);
+  content: "Lorem";
+  color: white;
+  opacity: 0.6;
+  position: absolute;
+  left: -20px;
+  bottom: 15%;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical > .swiper-pagination-bullets {
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0px, -130%, 0) !important;
+}
+
+.btn-primary {
+  border-radius: 100% !important;
+}
+
+.btn-close {
+  background-color: white !important;
+}
+
+.modal-header,
+.modal-content,
+.modal-body {
+  background-color: black;
+  border: 0 !important;
+}
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root {
+  box-shadow: 0px 2px 4px -1px transparent, 0px 4px 5px 0px transparent,
+    0px 1px 10px 0px transparent !important;
+  overflow-x: hidden !important;
+}
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root,
+.css-1ahfpow-MuiPaper-root-MuiAppBar-root,
+.css-1otaine-MuiPaper-root-MuiAppBar-root,
+.css-3il4n3-MuiPaper-root-MuiAppBar-root {
+  background-color: transparent !important;
+  overflow-x: hidden !important;
+}
+
+.img-fluid {
+  max-width: 7% !important;
+  height: auto;
+  margin: 1rem;
+}
+
+.TabArrowInvert {
+  transform: rotate(180deg) !important;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* *{
+  
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+      overflow-y: scroll; 
+  }
+    *::-webkit-scrollbar {
+      display: none; 
+  } */
+
+@media screen and (max-width: 540px) {
+  .swiper-pagination-vertical.swiper-pagination-bullets,
+  .swiper-vertical > .swiper-pagination-bullets {
+    right: 10px;
+    top: 50%;
+    transform: translate3d(0px, -85%, 0) !important;
+  }
+}

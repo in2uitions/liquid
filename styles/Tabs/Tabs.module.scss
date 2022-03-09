@@ -1,0 +1,153 @@
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.rainbow {
+	position: relative;
+	margin: 2rem auto auto auto;
+	z-index: 0;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	overflow: visible;
+	padding: 2rem;
+
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		width: 100%;
+		height: 100%;
+		left: -1px;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(purple, purple), linear-gradient(white, blue), linear-gradient(purple, white), linear-gradient(blue, blue);
+		animation: rotate 20s linear infinite;
+		filter: blur(50px);
+		border-radius: 50%;
+	}
+
+	&::after {
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		background-color: #1e272e;
+		border-radius: 50%;
+	}
+}
+
+.tabcontainer1,
+.tabcontainer2,
+.tabcontainer3 {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: #1e272e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.title,
+.info {
+	text-align: center;
+	color: grey;
+	transition: 0.4s;
+}
+
+.title {
+	font-size: 2rem;
+}
+
+.tabcontainer1:hover p {
+	color: white;
+	opacity: 1;
+}
+
+.tabcontainer2:hover p,
+.line2 {
+	color: white;
+	opacity: 1;
+
+}
+
+.tabcontainer1:focus p {
+	color: white;
+	opacity: 1;
+}
+
+.tabcontainer3:hover p {
+	color: white;
+	opacity: 1;
+}
+
+.tabcontainer3:hover .line3 {
+	display: block;
+}
+
+
+.info {
+	opacity: 0.7;
+}
+
+.tab {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-tap-highlight-color: transparent !important;
+	cursor: pointer;
+}
+
+
+.line2,
+.line3 {
+	height: 2.8rem;
+	width: 1px;
+	opacity: 0.7;
+	background-color: white;
+	visibility: hidden;
+}
+
+
+
+.line1 {
+	visibility: visible;
+	height: 2.8rem;
+	width: 1px;
+	opacity: 0.7;
+	background-color: white;
+}
+
+.tabscontainer {
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+
+.titleheader {
+	color: white;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	font-weight: 300;
+	opacity: 0.9;
+	font-size: 2rem;
+	padding: 2rem 0 0 0;
+}
+
+.titleheader span {
+	font-weight: 500;
+}
+
+.WhatWeDo {
+	color: white;
+	width: 80%;
+	margin: -10px auto 0 auto;
+	font-size: 2.5rem;
+	font-weight: 700;
+}

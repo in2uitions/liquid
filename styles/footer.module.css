@@ -1,0 +1,157 @@
+.ContainerFooter {
+  width: 100%;
+  padding-top: 1rem;
+  background-color: white;
+}
+
+.Underline a {
+  display: block;
+  color: black;
+}
+
+.Logo {
+  width: 50px;
+  padding-left: 1rem;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90%;
+  height: 80%;
+}
+
+.Under {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  opacity: 0.8;
+  padding-bottom: 2rem;
+}
+
+.text {
+  opacity: 0.8;
+  line-height: 1.2rem;
+}
+
+.text p {
+  margin-bottom: 0 !important;
+}
+
+.country {
+  font-weight: 600;
+  font-size: 1.5rem !important;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 320px) {
+  .text p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Underline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  .LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .text p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Underline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  .LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .text p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Underline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  .LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .text p {
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: -0.9px;
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+  }
+  .LogoContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    height: 80%;
+  }
+  .Underline  {
+    font-size: 20px;
+    letter-spacing: -0.9px;
+    display: flex;
+  }
+}
